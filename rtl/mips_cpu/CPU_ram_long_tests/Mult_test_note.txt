@@ -1,0 +1,30 @@
+100011 00000 00001 0000 0000 0001 1100
+8C01001C
+opcode rs    rt    offset //LW r[1] = MEM(rs+offset(28)) result r[1]= 80000010
+
+100011 00000 00010 0000 0000 0010 0000
+8C020020
+opcode rs    rt    offset //LW r[2] = MEM(rs+offset(32)) result r[2]= 00000010
+
+100011 00000 00011 0000 0000 0010 0110
+8C030026
+opcode rs    rt    offset //LW r[3] = MEM(rs+offset(36)) result r[3]=00010001
+
+000000 00001 00010 00000 00000 011000
+00220018
+opcode   rs   rt  // mult Rs(r1) * Rt(r2) check output registers HI and LO expected output FFFFFFFF80000100
+
+000000 00010 00011 00000 00000 011001
+00430019
+opcode   rs   rt  //multu Rs(r2) * Rt(r3) check output registers HI and LO ...00100010
+
+000000 00001 00010 00000 00000 011010
+000 0000 0001 0001 0000 0001 1010
+0022001A
+opcode   rs   rt  //div rs(r1) / rt(r2) remainder is stored in HI and the answer is stored in LO expected output = F8000001 00000000
+
+000000 00011 00010 00000 00000 011011
+0062001B
+opcode   rs   rt  //divu rs(r3) / rt(r2) = 00001000 00000001
+
+if (data[31]== 1), data + 64'hFFFFFFFFF000000000
