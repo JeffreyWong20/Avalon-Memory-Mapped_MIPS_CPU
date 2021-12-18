@@ -11,4 +11,8 @@ Directory
 
 Performing a test
 
+By calling the shell script within the test folder.
+
+
+
 
