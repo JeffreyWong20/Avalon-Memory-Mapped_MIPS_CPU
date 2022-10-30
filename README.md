@@ -9,7 +9,7 @@
 
 
 ## For Use
-By calling the shell script within the test folder.
+Run `./test/test_mips_cpu_bus.sh` to obtain the result 
 
 
 
