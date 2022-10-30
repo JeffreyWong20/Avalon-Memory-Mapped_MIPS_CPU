@@ -1,5 +1,5 @@
 # Avalon_Memory-Mapped_MIPS_CPU
-> The overall goals are to develop a synthesisable MIPS-compatible CPU. This CPU will interface with the world using a memory-mapped bus, which gives it access to memory and other peripherals.
+The overall goals are to develop a synthesisable MIPS-compatible CPU. This CPU will interface with the world using a memory-mapped bus, which gives it access to memory and other peripherals.
 >
 > Developing a piece of IP which could be sold and distributed to many clients, allowing clients to integrate the CPU into any number of products. As a consequence the emphasis is on producing a production quality CPU with a robust testing process - Expect to work on any FPGA or ASIC
 > 
