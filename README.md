@@ -7,9 +7,13 @@
 
 ## Project file structure
 
-* `./Docs`  : Contains the information of the data_sheet and its soecification
-* `./test`  : Contains the testcases(both in assembly code, machine code), the mock memory unit(for the sake of testing the CPU) and the testbench.v file               which was aimmed to connect the CPU with the memory unit.
-* `./rtl`   : Contains the actually systemverilog source code of the CPU. (Register level design of the CPU)
+  
+1. `./rtl`   : Contains the actually systemverilog source code of the CPU. (Register level design of the CPU)
+  1. `rtl/mips_cpu_bus.v` : An implementation of a MIPS CPU which meets the pre-specified template for signal names and interface timings.
+  2. `rtl/mips_cpu/*` :  Verilog modules ( Control Path, Data Path, ALU ...)
+2. `./test`  : Contains the testcases(both in assembly code, machine code), the mock memory unit(for the sake of testing the CPU) and the testbench.v file               which was aimmed to connect the CPU with the memory unit.
+
+3. `./Docs`  : Contains the information of the data_sheet and its soecification
 
 
 ## For Use
