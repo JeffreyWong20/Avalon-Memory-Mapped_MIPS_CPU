@@ -9,7 +9,7 @@
 
 
 ## For Use
-Run `./test/test_mips_cpu_bus.sh` to obtain the result 
+Run `./test/test_mips_cpu_bus.sh` to process a quick test (200 instructions) on the CPU.
 
 
 
