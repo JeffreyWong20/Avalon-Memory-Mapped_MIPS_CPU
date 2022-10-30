@@ -15,6 +15,15 @@
     * `./test/test_mips_cpu_bus.sh` : A test-bench for any CPU meeting the given interface. This will act as a test-bench for the CPU. 
 
 3. `./Docs`  : Contains the information of the data_sheet and its soecification
+    - `docs/mips_data_sheet.pdf` : A data-sheet for the CPU
+    - data-sheet cover:
+
+    - The overall architecture of the CPU.
+    - At least one diagram of the CPU's architecture.
+    - Design decisions taken when implementing the CPU.
+    - The approach taken to testing CPUs.
+    - Detailed diagram and flow-chart describing the testing flow and approach.
+    - Area and timing summary for the "Cyclone IV E ‘Auto’" variant in Quartus (same as used in the EE1 "CPU" project).
 
 
 ## For Use
