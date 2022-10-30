@@ -8,7 +8,7 @@
 * `./rtl`   :directory is the register level design of the CPU. It contains the actually systemverilog source code of the CPU.
 
 
-## For use
+## For Use
 By calling the shell script within the test folder.
 
 
